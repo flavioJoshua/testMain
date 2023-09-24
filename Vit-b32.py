@@ -56,14 +56,15 @@ else:
 
 # Perform logistic regression
 classifier = LogisticRegression(random_state=0, C=0.316, max_iter=1000, verbose=1)
-classifier.fit(train_features, train_labels)
+predictions_train=classifier.fit(train_features, train_labels).predict(train_features)
 
 accuracy=classifier.score(test_features,test_labels)
 
 # Evaluate using the logistic regression classifier
 predictions = classifier.predict(test_features)
 # accuracy = np.mean((test_labels == predictions).astype(float)) * 100.
-print(f"Score = {accuracy*100:.3f}")
+train_accuracy=np.mean((train_labels == predictions_train).astype(float)) * 100
+print(f"Score = {accuracy*100:.3f}  Score_data_Train:  {train_accuracy:.3f} ")
 
 
 from sklearn.metrics import f1_score  # Import the F1 score metric
@@ -77,3 +78,8 @@ print(f"Accuracy = {accuracy:.3f}")
 # Calculate F1 Score
 f1 = f1_score(test_labels, predictions, average='weighted')  # 'weighted' takes into account label imbalance
 print(f"F1 Score = {f1:.3f}")
+
+from  sklearn.metrics import  classification_report
+report=classification_report(test_labels,predictions)
+
+print (report)
