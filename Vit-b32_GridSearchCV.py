@@ -82,10 +82,10 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
 # Definizione della griglia di iperparametri
-param_grid = {'C': [0.1, 1, 10], 'penalty': ['l1', 'l2'], 'max_iter': [100, 500, 1000]}
+param_grid = {'C': [0.1, 1, 10], 'penalty': ['l1', 'l2'], 'max_iter': [500, 1000,5000]}
 
 # GridSearchCV
-grid = GridSearchCV(LogisticRegression(), param_grid, scoring='accuracy', cv=5)
+grid = GridSearchCV(LogisticRegression(), param_grid, scoring='accuracy', cv=5,verbose=1)
 grid.fit(train_features, train_labels)
 
 # Migliori iperparametri trovati
