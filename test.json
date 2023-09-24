@@ -1,0 +1,84 @@
+{
+    "dataset": "duorc",
+    "num_bytes_original_files": 97383710,
+    "num_bytes_parquet_files": 58710973,
+    "num_bytes_memory": 1059067116,
+    "num_rows": 187213,
+    "configs": [
+      {
+        "dataset": "duorc",
+        "config": "ParaphraseRC",
+        "num_bytes_original_files": 62921050,
+        "num_bytes_parquet_files": 37709127,
+        "num_bytes_memory": 718409158,
+        "num_rows": 100972,
+        "num_columns": 7
+      },
+      {
+        "dataset": "duorc",
+        "config": "SelfRC",
+        "num_bytes_original_files": 34462660,
+        "num_bytes_parquet_files": 21001846,
+        "num_bytes_memory": 340657958,
+        "num_rows": 86241,
+        "num_columns": 7
+      }
+    ],
+    "splits": [
+      {
+        "dataset": "duorc",
+        "config": "ParaphraseRC",
+        "split": "train",
+        "num_bytes_parquet_files": 26005668,
+        "num_bytes_memory": 496682909,
+        "num_rows": 69524,
+        "num_columns": 7
+      },
+      {
+        "dataset": "duorc",
+        "config": "ParaphraseRC",
+        "split": "validation",
+        "num_bytes_parquet_files": 5566868,
+        "num_bytes_memory": 106510489,
+        "num_rows": 15591,
+        "num_columns": 7
+      },
+      {
+        "dataset": "duorc",
+        "config": "ParaphraseRC",
+        "split": "test",
+        "num_bytes_parquet_files": 6136591,
+        "num_bytes_memory": 115215760,
+        "num_rows": 15857,
+        "num_columns": 7
+      },
+      {
+        "dataset": "duorc",
+        "config": "SelfRC",
+        "split": "train",
+        "num_bytes_parquet_files": 14851720,
+        "num_bytes_memory": 239852729,
+        "num_rows": 60721,
+        "num_columns": 7
+      },
+      {
+        "dataset": "duorc",
+        "config": "SelfRC",
+        "split": "validation",
+        "num_bytes_parquet_files": 3114390,
+        "num_bytes_memory": 51662519,
+        "num_rows": 12961,
+        "num_columns": 7
+      },
+      {
+        "dataset": "duorc",
+        "config": "SelfRC",
+        "split": "test",
+        "num_bytes_parquet_files": 3035736,
+        "num_bytes_memory": 49142710,
+        "num_rows": 12559,
+        "num_columns": 7
+      }
+    ]
+  }
+  

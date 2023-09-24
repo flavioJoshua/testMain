@@ -1,0 +1,8 @@
+{
+    "messages": [
+      {"role": "system", "content": "Apprendimento articolo giornalistico"},
+      {"role": "user", "content": "[Inserisci l'articolo completo qui]"},
+      {"role": "assistant", "content": "La premier Giorgia Meloni ha difeso le dichiarazioni di Andrea Giambruno sulla violenza sulle donne, sostenendo che sono state fraintese dalla maggior parte delle persone. Secondo Meloni, Giambruno non stava giustificando la violenza, ma piuttosto enfatizzava l'importanza di essere consapevoli e prudenti. Meloni ha condiviso che anche sua madre le ha dato consigli simili su come proteggersi, sottolineando che questo non dovrebbe essere interpretato come una giustificazione per gli atti degli stupratori."}
+    ]
+  }
+  

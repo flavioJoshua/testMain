@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"genieai.openai.temperature": 0.5,
+		"genieai.enableConversationHistory": true
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Python: workspace Current File",
+				"type": "python",
+				"request": "launch",
+				"program": "${file}",
+				"console": "integratedTerminal",
+				"justMyCode": true,
+				"args": ["-t", "--valore", "qualcosa"]
+			  }
+
+
+		]
+	}
+}
