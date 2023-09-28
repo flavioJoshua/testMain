@@ -62,4 +62,4 @@ for epoch in range(10):
 
 # Valuta il modello studente
 test_loss, test_accuracy = student_model.evaluate(test_images, test_labels)
-print(f"Test accuracy: {test_accuracy * 100}%")
+print(f"Final Test accuracy: {test_accuracy * 100}%")
