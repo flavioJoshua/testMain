@@ -4,7 +4,7 @@ from PIL import Image
 from concurrent.futures import ThreadPoolExecutor
 
 
-#se nn lo metti va in errore 
+#se nn lo metti va in errore  
 # export TESSDATA_PREFIX=/home/flavio/.conda/envs/yolo3.10/share/tessdata
 
 
