@@ -3,9 +3,11 @@ import pytesseract
 from PIL import Image
 from concurrent.futures import ThreadPoolExecutor
 
+from dotenv import load_dotenv
+load_dotenv()
 
 #se nn lo metti va in errore  
-# export TESSDATA_PREFIX=/home/flavio/.conda/envs/yolo3.10/share/tessdata
+# non serve  più ho fatto il file  .env export TESSDATA_PREFIX=/home/flavio/.conda/envs/yolo3.10/share/tessdata
 
 
 def get_text(frame):
