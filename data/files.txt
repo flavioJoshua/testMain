@@ -1,0 +1,27 @@
+
+
+
+from openai import OpenAI
+client = OpenAI()
+
+client.files.list()
+
+
+File
+/mnt/data/Gaza_output_231110_1813.json
+File ID
+
+file-SdMOaZjpKSBUsFKxRUMt78My
+
+Status
+Ready
+Purpose
+assistants_output
+Size
+3.820 bytes
+Created at
+10 nov 2023, 19:13
+
+
+
+SyncPage[FileObject](data=[FileObject(id='file-QqQiHAjsfiGg1yXoqyhFbnq3', bytes=4294, created_at=1699639936, filename='Gaza_war4.txt', object='file', purpose='assistants', status='processed', status_details=None), FileObject(id='file-P6ZKZMM9vB0nIuMMMUdhl7ru', bytes=3471, created_at=1699639490, filename='Gaza_War.txt', object='file', purpose='assistants', status='processed', status_details=None), FileObject(id='file-3ctmA6Qvxl9kX7nnBTARU5j9', bytes=3038, created_at=1699639490, filename='Gaza_War3.txt', object='file', purpose='assistants', status='processed', status_details=None), FileObject(id='file-nvGk7KP29v9Nx4neSNFRewYC', bytes=843941, created_at=1699397845, filename='EPEVER-MPTT_Tracer-AN-Manual-EN-V2.6.pdf', object='file', purpose='assistants', status='processed', status_details=None), FileObject(id='file-jY03rAfqrJVZffXxbdJ3yAoD', bytes=3471, created_at=1699396072, filename='Gaza_War.txt', object='file', purpose='assistants', status='processed', status_details=None), FileObject(id='file-yU535mxB9raVINqVcK3C6VNE', bytes=2123, created_at=1695337407, filename='step_metrics.csv', object='file', purpose='fine-tune-results', status='processed', status_details=None), FileObject(id='file-TpRhVdwwfE0kA7N2U0iesHPz', bytes=61463, created_at=1695336831, filename='file', object='file', purpose='fine-tune', status='processed', status_details=None), FileObject(id='file-BpXa6qljBspHk6CiQeohtCpl', bytes=2056, created_at=1695335229, filename='step_metrics.csv', object='file', purpose='fine-tune-results', status='processed', status_details=None), FileObject(id='file-Ps1qC1xmRA4ECwDZqMkYLObk', bytes=70190, created_at=1695334479, filename='file', object='file', purpose='fine-tune', status='processed', status_details=None), FileObject(id='file-J1JEyV1gfLXUos3E2RxHqCTQ', bytes=2052, created_at=1695285287, filename='step_metrics.csv', object='file', purpose='fine-tune-results', status='processed', status_details=None), FileObject(id='file-pyGFEERt9nN3HfonC82QDsIc', bytes=66401, created_at=1695284878, filename='file', object='file', purpose='fine-tune', status='processed', status_details=None), FileObject(id='file-tk8LMCzu9KAR3QaCSd3fSHEF', bytes=2098, created_at=1695252008, filename='step_metrics.csv', object='file', purpose='fine-tune-results', status='processed', status_details=None), FileObject(id='file-dQ1Ywm6y5EIIb9o2kj3bXKL8', bytes=65795, created_at=1695251701, filename='file', object='file', purpose='fine-tune', status='processed', status_details=None), FileObject(id='file-R3PKGRYeik5MOgZy1PPFnRk6', bytes=7147, created_at=1695249198, filename='file', object='file', purpose='fine-tune', status='processed', status_details=None), FileObject(id='file-PBI5iGuds39R4zLNBmB5YAgy', bytes=1615, created_at=1695210522, filename='file', object='file', purpose='fine-tune', status='processed', status_details=None)], object='list', has_more=False)
